@@ -6,7 +6,7 @@ h1,h2,h3,h4,h5,h6
 }
 img
 {
-    max-width: : 100%;
+    max-width: 100%;
     height: auto;
 }
 section
@@ -306,6 +306,7 @@ section .heading h2
 {
     background: #2f353b ;
     padding-top: 45px;
+    /* height: 910px; */
 }
 #autres .heading h2
 {
@@ -340,4 +341,12 @@ section .heading h2
 .autres-block .glyphicon
 {
     font-size: 20px;
+}
+#autres ul{
+    padding: 0;
+}
+#autres li
+{
+    list-style-type: none;
+    text-align: center;
 }
