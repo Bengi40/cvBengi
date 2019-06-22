@@ -1,4 +1,6 @@
+/* =================== */
 /* ===== GENERAL ===== */
+/* =================== */
 
 h1,h2,h3,h4,h5,h6
 {
@@ -9,15 +11,15 @@ img
     max-width: 100%;
     height: auto;
 }
-section
+section, footer
 {
     padding: 15px 0;
 }
-section .heading
+section .heading, footer .heading
 {
     text-align: center;
 }
-section .heading h2
+section .heading h2, footer .heading h5
 {
     text-align: center;
     text-transform: uppercase;
@@ -47,7 +49,11 @@ li
     list-style-type: none;
     text-align: center;
 }
+
+/* ================== */
 /* ===== NAVBAR ===== */
+/* ================== */
+
 .navbar-granit
 {
     background: #2f353b;
@@ -68,7 +74,10 @@ li
     color: #2f353b;
 }
 
+/* ================= */
 /* ===== ABOUT ===== */
+/* ================= */
+
 #about
 {
     padding-top: 80px;
@@ -123,7 +132,10 @@ li
     margin: 15px auto;
 }
 
+/* ===================== */
 /* ===== FORMATION ===== */
+/* ===================== */
+
 #formations
 {
     background: #fff;
@@ -165,7 +177,10 @@ li
     font-size: 40px;
 }
 
+/* ======================= */
 /* ===== EXPERIENCES ===== */
+/* ======================= */
+
 #experiences
 {
     background: #2f353b ;
@@ -267,7 +282,10 @@ li
     right:auto;
 }
 
+/* ======================= */
 /* ===== COMPETENCES ===== */
+/* ======================= */
+
 #competences
 {
     padding-bottom: 30px;
@@ -306,12 +324,15 @@ li
     font-size: 40px;
 }
 
+/* ================== */
 /* ===== AUTRES ===== */
+/* ================== */
+
 #autres
 {
     background: #2f353b ;
     padding-top: 45px;
-    /* height: 910px; */
+    height: 630px;
 }
 #autres .heading h2
 {
