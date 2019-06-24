@@ -151,6 +151,7 @@ li
     border: 2px solid #ccc;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 15px;
 }
 .formation-block h5
 {
@@ -332,7 +333,8 @@ li
 {
     background: #2f353b ;
     padding-top: 45px;
-    height: 630px;
+    height: 100%;
+    min-height: 730px;
 }
 #autres .heading h2
 {
@@ -348,6 +350,7 @@ li
     border: 2px solid #ccc;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 15px;
 }
 .autres-block h3
 {
