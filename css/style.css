@@ -25,6 +25,28 @@ section .heading h2, footer .heading h5
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+ul
+{
+    padding: 0;
+}
+li
+{
+    font-weight: bold;
+    list-style-type: none;
+    text-align: center;
+}
+
+/* ================== */
+/* ===== COLORS ===== */
+/* ================== */
+.bg-granit
+{
+    background:  #2f353b;
+}
+.bg-white
+{
+    background: #fff;
+}
 .granit-divider
 {
     width: 100px;
@@ -38,16 +60,6 @@ section .heading h2, footer .heading h5
     height: 2px;
     background: #fff;
     margin: 0 auto;
-}
-ul
-{
-    padding: 0;
-}
-li
-{
-    font-weight: bold;
-    list-style-type: none;
-    text-align: center;
 }
 
 /* ================== */
@@ -81,14 +93,12 @@ li
 #about
 {
     padding-top: 80px;
-    background: #2f353b ;
     color: #fff;
     padding-bottom: 30px;
 }
 .profile-image
 {
     text-align: center;
-    /*margin: 0 auto;*/
     float: none;
 }
 #about h1
@@ -138,7 +148,6 @@ li
 
 #formations
 {
-    background: #fff;
     padding-top: 45px;
 }
 .formation-block
@@ -177,6 +186,10 @@ li
 {
     font-size: 40px;
 }
+.entete-formation
+{
+    height: 120px;
+}
 
 /* ======================= */
 /* ===== EXPERIENCES ===== */
@@ -184,7 +197,6 @@ li
 
 #experiences
 {
-    background: #2f353b ;
     padding-bottom: 30px;
     padding-top: 45px;
 }
@@ -331,7 +343,6 @@ li
 
 #autres
 {
-    background: #2f353b ;
     padding-top: 45px;
     height: 100%;
     min-height: 730px;
